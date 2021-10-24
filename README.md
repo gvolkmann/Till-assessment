@@ -8,7 +8,7 @@
 I also dropped the mpgmpge variable as there was an exact correlation with the mpg variable, which could lead to multicollinearity signal in the model since the two variables are so closely linked. I also dropped carclassid in favor of one-hot encoding the carclass variable, since carclassid is a numerical variable and this might show up as signal even though the numbers do not hold actual weight and represent categories, not numerical data. I also removed the vehicle variable since there are 109 different types of vehicles for 153 data points, so including this metric might result in overfitting of the data since many data points for the vehicle variable are the only one for that particular type. 
 With more time for this project, I would look into engine power for each type of vehicle, and I would look up all the models and add the make of car as a variable. 
 
-4. 
+4. Variables that have explanatory power based on Random Forest Algorithm: 
 
 ![random forest coefficients](https://user-images.githubusercontent.com/66225041/138615698-e29abdcf-d8a7-4f86-aaa0-5869dc48f27f.png)
 
